@@ -1,0 +1,117 @@
+{
+    "OER_CV" : {
+        "__comment__" : "oer parameter of cv tech",
+        "techname" : "cv",
+        "electrode" : {
+            "Working" : "GCE",
+            "Refernece" : "Ag/AgCl",
+            "Counter" : "Pt"
+        },
+        "parameter" : {
+            "tech" : {
+                "vs_initial" : [false,false,false,false,false],
+                "Voltage_step(V)" : [0,-0.225,0.825,0,0],
+                "Scan_Rate(V/s)" : [0.2,0.2,0.2,0.2,0.2],
+                "N_Cycles" : 10,  
+                "Scan_number" : 2,  
+                "Record_every_dE(V)" : 0.01, 
+                "Average_over_dE" : false,
+                "Begin_measuring_I" : 0.5, 
+                "End_measuring_I" : 1.0
+                },
+            "hardware" : {
+                "I_Range" : 12,
+                "E_Range" : 0,
+                "Bandwidth" : 5
+            }
+        }
+    },
+    "OER_CA" : {
+        "__comment__": "oer parameter of ca tech",
+        "techname" : "ca",
+        "electrode" : {
+            "Working" : "GCE",
+            "Refernece" : "Ag/AgCl",
+            "Counter" : "Pt"
+        },
+        "parameter" : {
+            "tech" : {
+                "vs_initial": [false],
+                "Voltage_step(V)": [0.725],
+                "Duration_step(s)" : [10.0],
+                "Step_number": 0,
+                "Record_every_dT(s)": 0.01,
+                "Record_every_dI(A)": 0.01,
+                "N_Cycles" : 0
+            },
+            "hardware" : {
+                "I_Range" : 12,
+                "E_Range" : 0,
+                "Bandwidth" : 5
+            }
+        }
+    },
+    "OER_LSV" : {
+        "__comment__": "oer parameter of lsv tech",
+        "techname" : "lp",
+        "electrode" : {
+            "Working" : "GCE",
+            "Refernece" : "Ag/AgCl",
+            "Counter" : "Pt"
+        },
+        "parameter" : {
+            "tech" : {
+                "vs_initial_scan" : [false,false],
+                "Voltage_scan(V)" : [0.725,1.525],
+                "Scan_Rate(V/s)" : [0.1,0.01],
+                "Record_every_dEr(V)" : 0.01,      
+                "Rest_time_T(s)" : 1,
+                "Record_every_dTr(s)" : 0.01,
+                "Scan_number" : 0,
+                "Record_every_dE(V)" : 0.01,                
+                "Average_over_dE" : false,
+                "Begin_measuring_I" : 0.5,
+                "End_measuring_I" : 1.0
+                },
+            "hardware" : {
+                "I_Range" : 9,
+                "E_Range" : 2,
+                "Bandwidth" : 4
+            }
+        }
+    },
+    "OER_PEIS" : {
+        "__comment__": "example parameter of peis tech",
+        "techname" : "peis",
+        "electrode" : {
+            "Working" : "GCE",
+            "Refernece" : "Ag/AgCl",
+            "Counter" : "Pt"
+        },
+        "parameter" : {
+            "tech" : {
+                "vs_initial": false ,
+                "vs_final": false,
+                "Initial_Voltage_step(V)" : 1.6,
+                "Final_Voltage_step(V)" : 1.6,
+                "Duration_step(s)" : 0,
+                "Step_number" : 0,
+                "Record_every_dT(s)" : 10,
+                "Record_every_dI(A)" : 0.005,
+                "Final_frequency": 1e+8,
+                "Initial_frequency": 100000,
+                "Sweep": false,
+                "Amplitude_Voltage(V)" : 0.016,
+                "Frequency_number" : 5,
+                "Average_N_times" : 5,                
+                "Correction" : false,
+                "Wait_for_steady" : 0.10
+            },
+            "hardware" : {
+                "I_Range" : 12,
+                "E_Range" : 0,
+                "Bandwidth" : 3
+            }
+        }
+    }
+}

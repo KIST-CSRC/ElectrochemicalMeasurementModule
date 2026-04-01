@@ -1,0 +1,244 @@
+{
+    "OER_CV_broad_peak" : {
+        "__comment__" : "oer ECSA parameter of cv tech",
+        "techname" : "cv",
+        "parameter" : {
+            "tech" : {
+                "vs_initial" : [false,false,false,false,false],
+                "Voltage_step(V)" : [0,-0.225,1.225,0,0],
+                "Scan_Rate(V/s)" : [0.1,0.1,0.1,0.1,0.1],
+                "N_Cycles" : 4,  
+                "Scan_number" : 2,  
+                "Record_every_dE(V)" : 0.01, 
+                "Average_over_dE" : false,
+                "Begin_measuring_I" : 0.5, 
+                "End_measuring_I" : 1.0
+                },
+            "hardware" : {
+                "I_Range" : 12,
+                "E_Range" : 0,
+                "Bandwidth" : 5
+            }
+        }
+    },
+    "OER_CV_scanrate_0.01" : {
+        "__comment__" : "oer ECSA parameter of cv tech",
+        "techname" : "cv",
+        "parameter" : {
+            "tech" : {
+                "vs_initial" : [false,false,false,false,false],
+                "Voltage_step(V)" : [0,0.625,0.725,0,0],
+                "Scan_Rate(V/s)" : [0.01,0.01,0.01,0.01,0.01],
+                "N_Cycles" : 4,  
+                "Scan_number" : 2,  
+                "Record_every_dE(V)" : 0.01, 
+                "Average_over_dE" : false,
+                "Begin_measuring_I" : 0.5, 
+                "End_measuring_I" : 1.0
+                },
+            "hardware" : {
+                "I_Range" : 12,
+                "E_Range" : 0,
+                "Bandwidth" : 5
+            }
+        }
+    },
+    "OER_CV_scanrate_0.02" : {
+        "__comment__" : "oer ECSA parameter of cv tech",
+        "techname" : "cv",
+        "parameter" : {
+            "tech" : {
+                "vs_initial" : [false,false,false,false,false],
+                "Voltage_step(V)" : [0,0.625,0.725,0,0],
+                "Scan_Rate(V/s)" : [0.02,0.02,0.02,0.02,0.02],
+                "N_Cycles" : 4,  
+                "Scan_number" : 2,  
+                "Record_every_dE(V)" : 0.01, 
+                "Average_over_dE" : false,
+                "Begin_measuring_I" : 0.5, 
+                "End_measuring_I" : 1.0
+                },
+            "hardware" : {
+                "I_Range" : 12,
+                "E_Range" : 0,
+                "Bandwidth" : 5
+            }
+        }
+    },
+    "OER_CV_scanrate_0.03" : {
+        "__comment__" : "oer ECSA parameter of cv tech",
+        "techname" : "cv",
+        "parameter" : {
+            "tech" : {
+                "vs_initial" : [false,false,false,false,false],
+                "Voltage_step(V)" : [0,0.625,0.725,0,0],
+                "Scan_Rate(V/s)" : [0.03,0.03,0.03,0.03,0.03],
+                "N_Cycles" : 4,  
+                "Scan_number" : 2,  
+                "Record_every_dE(V)" : 0.01, 
+                "Average_over_dE" : false,
+                "Begin_measuring_I" : 0.5, 
+                "End_measuring_I" : 1.0
+                },
+            "hardware" : {
+                "I_Range" : 12,
+                "E_Range" : 0,
+                "Bandwidth" : 5
+            }
+        }
+    },
+    "OER_CV_scanrate_0.04" : {
+        "__comment__" : "oer ECSA parameter of cv tech",
+        "techname" : "cv",
+        "parameter" : {
+            "tech" : {
+                "vs_initial" : [false,false,false,false,false],
+                "Voltage_step(V)" : [0,0.625,0.725,0,0],
+                "Scan_Rate(V/s)" : [0.04,0.04,0.04,0.04,0.04],
+                "N_Cycles" : 4,  
+                "Scan_number" : 2,  
+                "Record_every_dE(V)" : 0.01, 
+                "Average_over_dE" : false,
+                "Begin_measuring_I" : 0.5, 
+                "End_measuring_I" : 1.0
+                },
+            "hardware" : {
+                "I_Range" : 12,
+                "E_Range" : 0,
+                "Bandwidth" : 5
+            }
+        }
+    },
+    "OER_CV_scanrate_0.05" : {
+        "__comment__" : "oer ECSA parameter of cv tech",
+        "techname" : "cv",
+        "parameter" : {
+            "tech" : {
+                "vs_initial" : [false,false,false,false,false],
+                "Voltage_step(V)" : [0,0.625,0.725,0,0],
+                "Scan_Rate(V/s)" : [0.05,0.05,0.05,0.05,0.05],
+                "N_Cycles" : 4,  
+                "Scan_number" : 2,  
+                "Record_every_dE(V)" : 0.01, 
+                "Average_over_dE" : false,
+                "Begin_measuring_I" : 0.5, 
+                "End_measuring_I" : 1.0
+                },
+            "hardware" : {
+                "I_Range" : 12,
+                "E_Range" : 0,
+                "Bandwidth" : 5
+            }
+        }
+    },
+    "OER_CV_scanrate_0.06" : {
+        "__comment__" : "oer ECSA parameter of cv tech",
+        "techname" : "cv",
+        "parameter" : {
+            "tech" : {
+                "vs_initial" : [false,false,false,false,false],
+                "Voltage_step(V)" : [0,0.625,0.725,0,0],
+                "Scan_Rate(V/s)" : [0.06,0.06,0.06,0.06,0.06],
+                "N_Cycles" : 4,  
+                "Scan_number" : 2,  
+                "Record_every_dE(V)" : 0.01, 
+                "Average_over_dE" : false,
+                "Begin_measuring_I" : 0.5, 
+                "End_measuring_I" : 1.0
+                },
+            "hardware" : {
+                "I_Range" : 12,
+                "E_Range" : 0,
+                "Bandwidth" : 5
+            }
+        }
+    },
+    "OER_CV_scanrate_0.07" : {
+        "__comment__" : "oer ECSA parameter of cv tech",
+        "techname" : "cv",
+        "parameter" : {
+            "tech" : {
+                "vs_initial" : [false,false,false,false,false],
+                "Voltage_step(V)" : [0,0.625,0.725,0,0],
+                "Scan_Rate(V/s)" : [0.07,0.07,0.07,0.07,0.07],
+                "N_Cycles" : 4,  
+                "Scan_number" : 2,  
+                "Record_every_dE(V)" : 0.01, 
+                "Average_over_dE" : false,
+                "Begin_measuring_I" : 0.5, 
+                "End_measuring_I" : 1.0
+                },
+            "hardware" : {
+                "I_Range" : 12,
+                "E_Range" : 0,
+                "Bandwidth" : 5
+            }
+        }
+    },
+    "OER_CV_scanrate_0.08" : {
+        "__comment__" : "oer ECSA parameter of cv tech",
+        "techname" : "cv",
+        "parameter" : {
+            "tech" : {
+                "vs_initial" : [false,false,false,false,false],
+                "Voltage_step(V)" : [0,0.625,0.725,0,0],
+                "Scan_Rate(V/s)" : [0.08,0.08,0.08,0.08,0.08],
+                "N_Cycles" : 4,  
+                "Scan_number" : 2,  
+                "Record_every_dE(V)" : 0.01, 
+                "Average_over_dE" : false,
+                "Begin_measuring_I" : 0.5, 
+                "End_measuring_I" : 1.0
+                },
+            "hardware" : {
+                "I_Range" : 12,
+                "E_Range" : 0,
+                "Bandwidth" : 5
+            }
+        }
+    },
+    "OER_CV_scanrate_0.09" : {
+        "__comment__" : "oer ECSA parameter of cv tech",
+        "techname" : "cv",
+        "parameter" : {
+            "tech" : {
+                "vs_initial" : [false,false,false,false,false],
+                "Voltage_step(V)" : [0,0.625,0.725,0,0],
+                "Scan_Rate(V/s)" : [0.09,0.09,0.09,0.09,0.09],
+                "N_Cycles" : 4,  
+                "Scan_number" : 2,  
+                "Record_every_dE(V)" : 0.01, 
+                "Average_over_dE" : false,
+                "Begin_measuring_I" : 0.5, 
+                "End_measuring_I" : 1.0
+                },
+            "hardware" : {
+                "I_Range" : 12,
+                "E_Range" : 0,
+                "Bandwidth" : 5
+            }
+        }
+    },
+    "OER_CV_scanrate_0.1" : {
+        "__comment__" : "oer ECSA parameter of cv tech",
+        "techname" : "cv",
+        "parameter" : {
+            "tech" : {
+                "vs_initial" : [false,false,false,false,false],
+                "Voltage_step(V)" : [0,0.625,0.725,0,0],
+                "Scan_Rate(V/s)" : [0.1,0.1,0.1,0.1,0.1],
+                "N_Cycles" : 4,  
+                "Scan_number" : 2,  
+                "Record_every_dE(V)" : 0.01, 
+                "Average_over_dE" : false,
+                "Begin_measuring_I" : 0.5, 
+                "End_measuring_I" : 1.0
+                },
+            "hardware" : {
+                "I_Range" : 12,
+                "E_Range" : 0,
+                "Bandwidth" : 5
+            }
+        }
+    }
+}

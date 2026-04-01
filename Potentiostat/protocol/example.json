@@ -1,0 +1,110 @@
+{
+    "OCV_example" : {
+        "__comment__": "example parameter of ocv tech",
+        "techname" : "ocv",
+        "parameter" : {
+            "tech" : {
+                "Rest_time_T(s)" : 30,
+                "Record_every_dT(s)" : 0.1
+            },
+            "hardware" : {
+                "I_Range" : 12,
+                "E_Range" : 2,
+                "Bandwidth" : 5
+            }
+        }
+    },
+    "CP_example" : {
+        "__comment__": "example parameter of cp tech",
+        "techname" : "cp",
+        "parameter" : {
+            "tech" : {
+                "Current_step(A)": [0.001,0.002,0.0005],
+                "vs_initial": [false, false, true],
+                "Duration_step(s)" : [2,1,3],
+                "Step_number": 0,
+                "Record_every_dT(s)": 0.1,
+                "Record_every_dE(V)": 0.1,
+                "N_Cycles" : 2
+            },
+            "hardware" : {
+                "I_Range" : 8
+            }
+        }
+    },
+    "CV_example" : {
+        "__comment__" : "example parameter of cv tech",
+        "techname" : "cv",
+        "parameter" : {
+            "tech" : {
+                "vs_initial" : [false,false,false,false,false],
+                "Voltage_step(V)" : [0,1,0,-1,0],
+                "Scan_Rate(V/s)" : [0.1,0.1,0.1,0.1,0.1],
+                "N_Cycles" : 1,  
+                "Scan_number" : 2,  
+                "Record_every_dE(V)" : 0.1, 
+                "Average_over_dE" : false,
+                "Begin_measuring_I" : 0.5, 
+                "End_measuring_I" : 1.0
+                },
+            "hardware" : {
+                "I_Range" : 12,
+                "E_Range" : 0,
+                "Bandwidth" : 5
+            }
+        }
+    },
+    "LSV_example" : {
+        "__comment__": "example parameter of lsv tech",
+        "techname" : "lp",
+        "parameter" : {
+            "tech" : {
+                "vs_initial_scan" : [false,false],
+                "Voltage_scan(V)" : [1,2.3],
+                "Scan_Rate(V/s)" : [0.1,0.01],
+                "Record_every_dEr(V)" : 0.01,      
+                "Rest_time_T(s)" : 1,
+                "Record_every_dTr(s)" : 0.1,
+                "Scan_number" : 0,
+                "Record_every_dE(V)" : 0.01,                
+                "Average_over_dE" : false,
+                "Begin_measuring_I" : 0.5,
+                "End_measuring_I" : 1.0
+                },
+            "hardware" : {
+                "I_Range" : 10,
+                "E_Range" : 2,
+                "Bandwidth" : 4
+            }
+        }
+    },
+    "PEIS_example" : {
+        "__comment__": "example parameter of peis tech",
+        "techname" : "peis",
+        "parameter" : {
+            "tech" : {
+                "vs_initial": false ,
+                "vs_final": false,
+                "Initial_Voltage_step(V)" : 0,
+                "Final_Voltage_step(V)" : 0,
+                "Duration_step(s)" : 0,
+                "Step_number" : 0,
+                "Record_every_dT(s)" : 0,
+                "Record_every_dI(A)" : 0,
+                "Final_frequency": 0.1,
+                "Initial_frequency": 200000,
+                "Sweep": false,
+                "Amplitude_Voltage(V)" : 0.010,
+                "Frequency_number" : 38,
+                "Average_N_times" : 2,                
+                "Correction" : false,
+                "Wait_for_steady" : 0.10
+            },
+            "hardware" : {
+                "I_Range" : 12,
+                "E_Range" : 2,
+                "Bandwidth" : 5
+            }
+        }
+    }
+}
